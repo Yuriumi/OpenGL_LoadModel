@@ -133,6 +133,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C:\ProgrameLib_C++\glad.c" />
+    <ClCompile Include="ref\load\Model.cpp" />
+    <ClCompile Include="ref\load\Mesh.cpp" />
     <ClCompile Include="ref\camera\Camera.cpp" />
     <ClCompile Include="ref\imgui\imgui.cpp" />
     <ClCompile Include="ref\imgui\imgui_demo.cpp" />
@@ -145,6 +147,8 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ref\load\Model.h" />
+    <ClInclude Include="ref\load\Mesh.h" />
     <ClInclude Include="ref\camera\Camera.h" />
     <ClInclude Include="ref\imgui\imconfig.h" />
     <ClInclude Include="ref\imgui\imgui.h" />
@@ -157,6 +161,10 @@
     <ClInclude Include="ref\imgui\imstb_truetype.h" />
     <ClInclude Include="ref\shader\Shader.h" />
     <ClInclude Include="ref\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\fModel.shader" />
+    <None Include="shader\vModel.shader" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
